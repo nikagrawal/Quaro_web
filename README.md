@@ -18,9 +18,12 @@ Create a website inspired by Quora with the following functionality:
 
     2)  Post questions
     Note -> Click on Add Question to redirect Post Question page
-    ![Screenshot (2)](https://github.com/nikagrawal/Quaro_web/assets/80322770/fccdf16a-fdcd-4390-8ea1-7de801f7cd29)
 
 
+![Screenshot (9)](https://github.com/nikagrawal/Quaro_web/assets/80322770/74e5615b-8a50-48b0-a3b4-294b38345c01)
+
+    
+   
     3)  View questions posted by others 
     
     
