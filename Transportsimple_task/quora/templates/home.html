@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> Home page</h1>
+
+{% if user.is_authenticated %}
+    <p>Name: {{ user.first_name }} {{ user.last_name }}</p>
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+
+    <h4>Question</h4>
+    <ul>
+        {% for quest_list in quest_list %}
+            <li>
+				
+                <a href="{{ quest_list.get_absolute_url }}">
+                    <div class="question-box">
+						
+                        {{ quest_list.question }}
+                    </div>
+					<b>  view answer</b>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h4>Question</h4>
+    <ul>
+        {% for quest_list in quest_list %}
+            <li>
+                <a href="{% url 'login' %}">
+                    <div class="question-box">
+						<b>===> {{ quest_list.question }}</b>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+<style>
+    .question-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+</style>
+{% endblock %}
