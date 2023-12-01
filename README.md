@@ -27,7 +27,8 @@ Create a website inspired by Quora with the following functionality:
     3)  View questions posted by others 
     
     
-![Screenshot (9)](https://github.com/nikagrawal/Quaro_web/assets/80322770/63afd1e1-85e8-4d02-ac8f-0e92d6671042)
+![Screenshot (6)](https://github.com/nikagrawal/Quaro_web/assets/80322770/9cccfc15-a42e-40b6-8896-c05108485b4e)
+
 
 
 4) Able to answer questions posted by others
